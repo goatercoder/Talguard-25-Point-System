@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Analysis output (local data, don't commit)
+results/history.json
+
+# Streamlit secrets (never commit real keys)
+.streamlit/secrets.toml
+
+# Editor
+.vscode/
+.idea/
