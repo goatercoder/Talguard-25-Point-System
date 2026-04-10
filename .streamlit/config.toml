@@ -6,7 +6,8 @@ textColor = "#f1f5f9"
 primaryColor = "#3b82f6"
 
 [server]
-headless = false
+headless = true
+fileWatcherType = "none"
 
 [browser]
 gatherUsageStats = false
